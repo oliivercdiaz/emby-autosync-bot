@@ -1,4 +1,4 @@
-# 🎬 Emby AutoSync Bot — Final PRO
+# 🎬 Emby AutoSync Bot
 
 A smart **Telegram** assistant for **Emby**: search titles on **TMDb**, create safe `.strm` files, **show posters & synopsis**, and **refresh metadata** automatically so your library stays up to date — hands‑free.
 
