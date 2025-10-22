@@ -88,6 +88,3 @@ sudo systemctl start emby-autosync-bot
 Developed by **Oliver Corral Díaz** — IT & Network Specialist
 
 ---
-
-## License
-MIT
