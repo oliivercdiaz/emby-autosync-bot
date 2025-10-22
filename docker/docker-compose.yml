@@ -1,0 +1,11 @@
+services:
+  emby-autosync-bot:
+    build: .
+    container_name: emby-autosync-bot
+    env_file: .env
+    volumes:
+      - ./bot_data:/app/bot_data
+      - ${MOVIES_PATH}:/mnt/movies
+      - ${SERIES_PATH}:/mnt/series
+      - ./.env:/app/.env:ro
+    restart: unless-stopped

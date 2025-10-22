@@ -1,0 +1,14 @@
+[Unit]
+Description=Emby AutoSync Bot
+After=network.target
+
+[Service]
+WorkingDirectory=/home/pi/emby-autosync-bot
+ExecStart=/usr/bin/python3 /home/pi/emby-autosync-bot/bot.py
+EnvironmentFile=/home/pi/emby-autosync-bot/.env
+Restart=always
+RestartSec=5
+User=pi
+
+[Install]
+WantedBy=multi-user.target
